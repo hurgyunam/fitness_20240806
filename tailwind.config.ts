@@ -14,6 +14,17 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors: {
+      limegreen: '#E2F163',
+      purple: '#896CFE',
+      lightpurple: '#B3A0FF',
+      black: '#232323',
+      white: '#FFFFFF',
+    },
+    fontFamily: {
+      title: ["Poppins", 'sans-serif'],
+      body: ["League Spartan", 'sans-serif'],
+    }
   },
   plugins: [],
 };
