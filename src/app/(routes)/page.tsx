@@ -1,3 +1,4 @@
+import BottomNavigator from "@/components/bottom_navigator";
 import MainArticles from "@/components/index/articles";
 import MainHeader from "@/components/index/header";
 import MainRecommendations from "@/components/index/recommendations";
@@ -13,9 +14,7 @@ export default function Home() {
       <MainRecommendations />
       <MainWeeklyChallenge image={ImageWeeklyChallenge} title="Plank With Hip Twist" />
       <MainArticles />
-      <div></div>
-      <div></div>
-      <div></div>
+      <BottomNavigator />
     </main>
   );
 }
