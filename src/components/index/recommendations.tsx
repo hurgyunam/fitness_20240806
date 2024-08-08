@@ -6,7 +6,7 @@ import ImageVideo2 from "@/images/recommendation_video_2.png";
 export default function MainRecommendations() {
   return (
     <>
-      <div className="flex flex-col mt-[24px]">
+      <div className="flex flex-col mt-[24px] px-[35px]">
         <div className="flex justify-between">
           <div className="text-limegreen">
             Recommendations

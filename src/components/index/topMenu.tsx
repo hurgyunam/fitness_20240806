@@ -7,7 +7,7 @@ import IconCommunity from "@/icons/Community.svg";
 export default function MainTopMenu() {
   return (
     <>
-      <div className="flex justify-between items-center mt-[40px]">
+      <div className="flex justify-between items-center mt-[12px] px-[35px]">
         <div className="flex flex-col items-center">
           <IconWorkout/>
           <div className="font-body font-light mt-[2px] text-limegreen">Workout</div>
