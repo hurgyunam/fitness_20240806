@@ -1,5 +1,7 @@
 import IconArrow from "@/icons/Arrow.svg";
 import MainRecommendationVideo from "./recommendation_video";
+import ImageVideo1 from "@/images/recommendation_video_1.png";
+import ImageVideo2 from "@/images/recommendation_video_2.png";
 
 export default function MainRecommendations() {
   return (
@@ -16,8 +18,21 @@ export default function MainRecommendations() {
             <IconArrow />
           </div>
         </div>
-        <div className="flex">
-          <MainRecommendationVideo />
+        <div className="grid grid-rows-1 grid-flow-col gap-[10px] mt-[8px]">
+          <MainRecommendationVideo 
+            thumbnail={ImageVideo1}
+            title="Squat Exercise"
+            minutes={12}
+            kcalories={128}
+            bookmarked={false}
+            />
+          <MainRecommendationVideo 
+            thumbnail={ImageVideo2}
+            title="Full Body stretching"
+            minutes={12}
+            kcalories={128}
+            bookmarked={true}
+            />
         </div>
       </div>
     </>
