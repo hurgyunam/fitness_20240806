@@ -1,4 +1,5 @@
 import BottomNavigator from "@/components/bottom_navigator";
+import CommonHeader from "@/components/common/CommonHeader";
 import MainArticles from "@/components/index/articles";
 import MainHeader from "@/components/index/header";
 import MainRecommendations from "@/components/index/recommendations";
@@ -9,7 +10,11 @@ import ImageWeeklyChallenge from "@/images/weekly_challenge.png";
 export default function Home() {
   return (
     <main className="bg-[#212020] w-[393px] h-[852px]">
-      <MainHeader nickName="Madiso"/>
+      <CommonHeader>
+        <div className="font-title text-[20px] text-purple">
+          Hi, Madiso2
+        </div>
+      </CommonHeader>
       <MainTopMenu />
       <MainRecommendations />
       <MainWeeklyChallenge image={ImageWeeklyChallenge} title="Plank With Hip Twist" />
