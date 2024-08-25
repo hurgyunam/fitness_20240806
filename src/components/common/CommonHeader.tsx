@@ -18,7 +18,7 @@ export default function CommonHeader({children} : CommonHeaderProps) {
           </div>
         </div>
         <div className="font-body text-[13px] text-white">
-          It's time to challenge your limits.
+          It&apos;s time to challenge your limits.
         </div>
       </div>
     );

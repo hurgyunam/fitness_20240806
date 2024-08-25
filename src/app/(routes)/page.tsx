@@ -1,7 +1,6 @@
 import BottomNavigator from "@/components/bottom_navigator";
 import CommonHeader from "@/components/common/CommonHeader";
 import MainArticles from "@/components/index/articles";
-import MainHeader from "@/components/index/header";
 import MainRecommendations from "@/components/index/recommendations";
 import MainTopMenu from "@/components/index/topMenu";
 import MainWeeklyChallenge from "@/components/index/weekly";
